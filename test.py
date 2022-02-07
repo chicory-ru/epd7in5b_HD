@@ -40,5 +40,4 @@ for i in range(0, WIDTH, STEP):
     
 e_ink.display_frame(None, buf) # After loading the red frame, the screen refreshes.
 
-del buf
 e_ink.sleep()
